@@ -1,0 +1,129 @@
+ \cftsetpnumwidth {\widthof {1}-1pt} 
+ \cftsetpnumwidth {\widthof {2}-1pt} 
+ \cftsetpnumwidth {\widthof {I}-1pt} 
+ \cftsetpnumwidth {\widthof {II}-1pt} 
+ \cftsetpnumwidth {\widthof {III}-1pt} 
+ \cftsetpnumwidth {\widthof {IV}-1pt} 
+ \cftsetpnumwidth {\widthof {V}-1pt} 
+ \cftsetpnumwidth {\widthof {VI}-1pt} 
+ \cftsetpnumwidth {\widthof {VII}-1pt} 
+ \cftsetpnumwidth {\widthof {VIII}-1pt} 
+ \cftsetpnumwidth {\widthof {1}-1pt} 
+\setcounter {tocdepth}{4}
+\contentsline {chapter}{\numberline {第一章}绪\hspace {6pt}论}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}研究工作的背景}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}断点续传的现状与意义}{1}{section.1.2}
+ \cftsetpnumwidth {\widthof {2}-1pt} 
+\contentsline {section}{\numberline {1.3}本软件的主要贡献与创新}{2}{section.1.3}
+\contentsline {section}{\numberline {1.4}本论文的结构安排}{2}{section.1.4}
+ \cftsetpnumwidth {\widthof {3}-1pt} 
+\contentsline {chapter}{\numberline {第二章}tus协议基础}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}tus核心协议}{3}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}tus请求}{3}{subsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.1.1}HEAD}{3}{subsubsection.2.1.1.1}
+ \cftsetpnumwidth {\widthof {4}-1pt} 
+\contentsline {subsubsection}{\numberline {2.1.1.2}PATCH}{4}{subsubsection.2.1.1.2}
+\contentsline {subsubsection}{\numberline {2.1.1.3}OPTION}{4}{subsubsection.2.1.1.3}
+ \cftsetpnumwidth {\widthof {5}-1pt} 
+\contentsline {section}{\numberline {2.2}tus协议的头部信息}{5}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Upload-Offset}{5}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Upload-Length}{5}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Tus-Version}{5}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Tus-Resumable}{5}{subsection.2.2.4}
+ \cftsetpnumwidth {\widthof {6}-1pt} 
+\contentsline {subsection}{\numberline {2.2.5}Tus-Extension}{6}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}Tus-Max-Size}{6}{subsection.2.2.6}
+\contentsline {subsection}{\numberline {2.2.7}X-HTTP-Method-Override}{6}{subsection.2.2.7}
+\contentsline {section}{\numberline {2.3}tus协议扩展}{6}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}新建上传}{6}{subsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.1.1}举例}{6}{subsubsection.2.3.1.1}
+ \cftsetpnumwidth {\widthof {7}-1pt} 
+\contentsline {subsubsection}{\numberline {2.3.1.2}头部信息}{7}{subsubsection.2.3.1.2}
+\contentsline {paragraph}{\numberline {2.3.1.2.1}Upload-Defer-Length}{7}{paragraph.2.3.1.2.1}
+\contentsline {paragraph}{\numberline {2.3.1.2.2}Upload-Metadata}{7}{paragraph.2.3.1.2.2}
+\contentsline {subsubsection}{\numberline {2.3.1.3}要求}{7}{subsubsection.2.3.1.3}
+\contentsline {subsection}{\numberline {2.3.2}过期处理}{7}{subsection.2.3.2}
+ \cftsetpnumwidth {\widthof {8}-1pt} 
+\contentsline {subsubsection}{\numberline {2.3.2.1}举例}{8}{subsubsection.2.3.2.1}
+\contentsline {subsubsection}{\numberline {2.3.2.2}头部信息}{8}{subsubsection.2.3.2.2}
+\contentsline {paragraph}{\numberline {2.3.2.2.1}Upload-Expires}{8}{paragraph.2.3.2.2.1}
+\contentsline {subsection}{\numberline {2.3.3}校验处理}{8}{subsection.2.3.3}
+ \cftsetpnumwidth {\widthof {9}-1pt} 
+\contentsline {subsubsection}{\numberline {2.3.3.1}头部信息}{9}{subsubsection.2.3.3.1}
+\contentsline {paragraph}{\numberline {2.3.3.1.1}Tus-Checksum-Algorithm}{9}{paragraph.2.3.3.1.1}
+\contentsline {paragraph}{\numberline {2.3.3.1.2}Upload-Checksum}{9}{paragraph.2.3.3.1.2}
+\contentsline {subsubsection}{\numberline {2.3.3.2}举例}{9}{subsubsection.2.3.3.2}
+ \cftsetpnumwidth {\widthof {10}-1pt} 
+\contentsline {subsection}{\numberline {2.3.4}终止处理}{10}{subsection.2.3.4}
+\contentsline {subsubsection}{\numberline {2.3.4.1}需求}{10}{subsubsection.2.3.4.1}
+\contentsline {subsubsection}{\numberline {2.3.4.2}举例}{10}{subsubsection.2.3.4.2}
+\contentsline {subsection}{\numberline {2.3.5}级联处理}{10}{subsection.2.3.5}
+ \cftsetpnumwidth {\widthof {11}-1pt} 
+\contentsline {subsubsection}{\numberline {2.3.5.1}头部信息}{11}{subsubsection.2.3.5.1}
+\contentsline {paragraph}{\numberline {2.3.5.1.1}Upload-Concat}{11}{paragraph.2.3.5.1.1}
+\contentsline {subsubsection}{\numberline {2.3.5.2}举例}{11}{subsubsection.2.3.5.2}
+ \cftsetpnumwidth {\widthof {12}-1pt} 
+ \cftsetpnumwidth {\widthof {13}-1pt} 
+\contentsline {section}{\numberline {2.4}关于base64}{13}{section.2.4}
+ \cftsetpnumwidth {\widthof {14}-1pt} 
+\contentsline {section}{\numberline {2.5}本章小结}{14}{section.2.5}
+ \cftsetpnumwidth {\widthof {15}-1pt} 
+\contentsline {chapter}{\numberline {第三章}软件的设计}{15}{chapter.3}
+\contentsline {section}{\numberline {3.1}JAVA语言的环境配置}{15}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}JAVA工具包JDK}{15}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}JAVA运行环境JRE}{15}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}JDK和JRE的安装}{15}{subsection.3.1.3}
+\contentsline {subsubsection}{\numberline {3.1.3.1}关于PC配置要求}{15}{subsubsection.3.1.3.1}
+ \cftsetpnumwidth {\widthof {16}-1pt} 
+\contentsline {subsection}{\numberline {3.1.4}环境变量的配置}{16}{subsection.3.1.4}
+\contentsline {section}{\numberline {3.2}需求分析与实现原理}{16}{section.3.2}
+ \cftsetpnumwidth {\widthof {17}-1pt} 
+\contentsline {subsection}{\numberline {3.2.1}软件的需求分析}{17}{subsection.3.2.1}
+ \cftsetpnumwidth {\widthof {18}-1pt} 
+ \cftsetpnumwidth {\widthof {19}-1pt} 
+\contentsline {section}{\numberline {3.3}软件的模块设计}{19}{section.3.3}
+ \cftsetpnumwidth {\widthof {20}-1pt} 
+\contentsline {subsection}{\numberline {3.3.1}软件流程介绍}{20}{subsection.3.3.1}
+ \cftsetpnumwidth {\widthof {21}-1pt} 
+\contentsline {subsection}{\numberline {3.3.2}程序主要类的介绍}{21}{subsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.2.1}Window类}{21}{subsubsection.3.3.2.1}
+ \cftsetpnumwidth {\widthof {22}-1pt} 
+ \cftsetpnumwidth {\widthof {23}-1pt} 
+\contentsline {subsubsection}{\numberline {3.3.2.2}MyThreadFactory类}{23}{subsubsection.3.3.2.2}
+ \cftsetpnumwidth {\widthof {24}-1pt} 
+\contentsline {subsubsection}{\numberline {3.3.2.3}TusUploadRun类}{24}{subsubsection.3.3.2.3}
+ \cftsetpnumwidth {\widthof {25}-1pt} 
+\contentsline {subsubsection}{\numberline {3.3.2.4}TusUpload类}{25}{subsubsection.3.3.2.4}
+ \cftsetpnumwidth {\widthof {26}-1pt} 
+ \cftsetpnumwidth {\widthof {27}-1pt} 
+\contentsline {subsubsection}{\numberline {3.3.2.5}TusUploader类}{27}{subsubsection.3.3.2.5}
+ \cftsetpnumwidth {\widthof {28}-1pt} 
+\contentsline {subsubsection}{\numberline {3.3.2.6}关于配置文件}{28}{subsubsection.3.3.2.6}
+\contentsline {section}{\numberline {3.4}本章小结}{28}{section.3.4}
+ \cftsetpnumwidth {\widthof {29}-1pt} 
+\contentsline {chapter}{\numberline {第四章}软件的测试}{29}{chapter.4}
+\contentsline {section}{\numberline {4.1}软件测试的概念}{29}{section.4.1}
+\contentsline {section}{\numberline {4.2}时域积分方程时间步进算法阻抗矩阵的存储}{29}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}时域积分方程时间步进算法产生的阻抗矩阵的特征}{29}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}数值算例与分析}{29}{subsection.4.2.2}
+ \cftsetpnumwidth {\widthof {30}-1pt} 
+\contentsline {section}{\numberline {4.3}时域积分方程时间步进算法矩阵方程的求解}{30}{section.4.3}
+ \cftsetpnumwidth {\widthof {31}-1pt} 
+\contentsline {section}{\numberline {4.4}本章小结}{31}{section.4.4}
+ \cftsetpnumwidth {\widthof {32}-1pt} 
+\contentsline {chapter}{\numberline {第五章}全文总结与展望}{32}{chapter.5}
+\contentsline {section}{\numberline {5.1}全文总结}{32}{section.5.1}
+\contentsline {section}{\numberline {5.2}后续工作展望}{32}{section.5.2}
+\setcounter {tocdepth}{0}
+ \cftsetpnumwidth {\widthof {33}-1pt} 
+\contentsline {chapter}{致\hspace {12pt}谢}{33}{chapter*.18}
+ \cftsetpnumwidth {\widthof {34}-1pt} 
+\contentsline {chapter}{参考文献}{34}{chapter*.19}
+ \cftsetpnumwidth {\widthof {35}-1pt} 
+\contentsline {chapter}{附录}{35}{chapter*.20}
+ \cftsetpnumwidth {\widthof {36}-1pt} 
+\contentsline {chapter}{外文资料原文}{36}{chapter*.21}
+\contentsline {section}{\numberline {1}A Tight Upper Bound on Bit Error Rate}{36}{section.5.1}
+ \cftsetpnumwidth {\widthof {37}-1pt} 
+\contentsline {chapter}{外文资料译文}{37}{chapter*.22}
+\contentsline {section}{\numberline {1}基于多载波索引键控的正交频分多路复用系统模型}{37}{section.5.1}
